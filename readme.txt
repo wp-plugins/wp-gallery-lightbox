@@ -33,4 +33,7 @@ If you find this plugin helpful, we appreciate if you give us your review.
 = 1.0 =
 * Initial plugin version
 
+= 1.1 =
+* Update plugin that enables only on first gallery discovered by Mike.
+
 == Upgrade notice ==

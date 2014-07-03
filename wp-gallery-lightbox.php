@@ -3,7 +3,7 @@
  * Plugin Name: WP Gallery - Addon Lightbox
  * Plugin URI: http://crea8xion.com/features/wp-gallery-lightbox/
  * Description: This plugin will add a prettyPhoto lightbox on your media attachment gallery.
- * Version: 1.0
+ * Version: 1.1
  * Author: crea8xion
  * Author URI: http://crea8xion.com
  * License: GPL2
@@ -56,7 +56,7 @@ class wp_gallery_lightbox_addon{
             jQuery(document).ready(function(){
                 if( typeof jQuery().prettyPhoto === "function" ){
                     //jQuery(".gallery a[rel^='prettyPhoto'], a[rel^='prettyPhoto']").prettyPhoto();
-                    jQuery(".gallery:first a[rel^='prettyPhoto']").prettyPhoto({animation_speed:'normal',theme:'facebook',slideshow:3000, autoplay_slideshow: false});
+                    jQuery(".gallery a[rel^='prettyPhoto']").prettyPhoto({animation_speed:'normal',theme:'facebook',slideshow:3000, autoplay_slideshow: false});
                 }
             });
         </script>
