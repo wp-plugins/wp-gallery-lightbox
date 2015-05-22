@@ -30,10 +30,16 @@ If you find this plugin helpful, we appreciate if you give us your review.
 
 == Changelog ==
 
-= 1.0 =
-* Initial plugin version
+= 1.1.1 =
+* Update on prettyPhoto XSS exploit - reported by WP.
 
 = 1.1 =
 * Update plugin that enables only on first gallery discovered by Mike.
 
+= 1.0 =
+* Initial plugin version
+
 == Upgrade notice ==
+
+= 1.1.1 =
+* Update on prettyPhoto XSS exploit - reported by WP.
